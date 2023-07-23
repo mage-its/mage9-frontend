@@ -99,7 +99,7 @@ const Footer = ({ lineColor, footerColor }: FooterProps) => {
                     target='blank'
                   >
                     <IconBrandInstagram />
-                    Mage_its
+                    mage_its
                   </Link>
                 </li>
                 <li>
