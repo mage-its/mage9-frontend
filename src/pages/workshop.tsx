@@ -63,10 +63,10 @@ export default function workshop() {
         </div>
         <div className='relative flex min-h-screen flex-col items-center justify-center bg-[#CBEAF8] dark:bg-[#301E67]'>
           <div className='mx-8 rounded-3xl bg-gradient-to-b from-[#50B8E7] to-[#0076AB] px-8 py-10 md:mx-16 md:px-12 md:py-16'>
-            <h1 className='mb-2 text-2xl font-bold sm:text-3xl md:mb-8 md:text-4xl lg:text-5xl'>
+            <h1 className='mb-2 p-8 text-2xl font-bold sm:text-3xl md:mb-8 md:text-4xl lg:text-5xl'>
               Workshop
             </h1>
-            <p className='text-justifytext-sm font-light sm:text-xl md:text-2xl'>
+            <p className='text-justifytext-sm p-8 font-light sm:text-xl md:text-2xl'>
               Workshop merupakan sebuah realisasi dari komitmen MAGE 9 dalam
               berbagi ilmu pengetahuan dan pengalaman dalam menciptakan dan
               mengembangkan sebuah teknologi digital. Kegiatan workshop ini
@@ -119,7 +119,7 @@ export default function workshop() {
             <div className='col-start-1 col-end-2  '>
               <SpeakerCard
                 title='Multimedia'
-                name='Kenanya Kaendra'
+                name='Kenanya Keandra'
                 description='FreePass Teknik Komputer 2021'
                 archivment='Juara 1 Game Dev, Mage 6'
                 image='ken.svg'
@@ -129,8 +129,8 @@ export default function workshop() {
             <div className='col-start-2 col-end-3  '>
               <SpeakerCard
                 title='IoT'
-                name='Commming Soon'
-                description='Commig Soon'
+                name='Coming Soon'
+                description='Coming Soon'
                 archivment='Coming Soon'
                 image='dummy.svg'
                 gradient='from-[#FBF17F] to-[#E7B10A]'

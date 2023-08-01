@@ -40,7 +40,7 @@ const CompetitionTimeline = ({ title, name }: CompetitionTimelineProps) => {
         <div className={title === 'robotics' ? 'block' : 'hidden'}>
           <div className='flex min-h-[80vh] flex-col items-center justify-center'>
             <h1 className='animate-bounce text-4xl font-bold md:text-5xl'>
-              Comming Soon
+              Coming Soon
             </h1>
           </div>
         </div>

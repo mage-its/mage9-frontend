@@ -104,7 +104,7 @@ export default function Navbar() {
       </div>
       <div className='flex h-24 items-center justify-end self-center lg:w-9/12'>
         <div className='text-xl font-semibold text-white'>
-          <ul className='hidden flex-row lg:flex '>
+          <ul className='hidden flex-row pt-2 lg:flex'>
             {links.map(({ href, label }) => (
               <li
                 key={`${href}${label}`}
