@@ -2,21 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'Airstrike';
-  font-style: normal;
-  font-weight: 100 900;
-  font-display: optional;
-  src: url('/fonts/airstrike.woff2') format('woff2');
-}
-@font-face {
-  font-family: 'LexendDeca';
-  font-style: normal;
-  font-weight: 100 900;
-  font-display: optional;
-  src: url('/fonts/lexend-deca.woff2') format('woff2');
-}
-
 * {
   box-sizing: border-box;
 }
@@ -25,16 +10,12 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'LexendDeca', sans-serif;
+  overflow-x: hidden;
 }
 
 a {
   color: inherit;
   text-decoration: none;
-}
-
-.font-aistrike {
-  font-family: 'Airstrike', sans-serif;
 }
 
 .debug {

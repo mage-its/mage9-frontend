@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { useRouter } from 'next/router'
 import React, { useEffect } from 'react'
 import { useState } from 'react'
@@ -56,7 +57,7 @@ const Login = () => {
   }, [error, user, router])
   return (
     <form className='space-y-3 px-6 py-4' onSubmit={handleLogin}>
-      <h3 className='text-xl font-medium text-white'>Signin to MAGE 9</h3>
+      <h3 className='text-xl font-medium text-white'>Login to MAGE 9</h3>
       <div>
         <label
           htmlFor='email'
@@ -116,23 +117,23 @@ const Login = () => {
         className='flex w-full justify-end'
         onClick={() => handleClick('forgotPassword')}
       >
-        <a
+        <Link
           href='#'
           className='block w-full text-right text-sm text-blue-700 hover:underline'
         >
           Forgot Password?
-        </a>
+        </Link>
       </button>
       <LoginSocial />
       <div className='text-sm font-medium text-gray-300'>
         Not Registered?{' '}
-        <a
+        <Link
           href='#'
           className='text-blue-700 hover:underline'
           onClick={() => handleClick('register')}
         >
           Create account
-        </a>
+        </Link>
       </div>
     </form>
   )

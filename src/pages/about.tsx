@@ -58,7 +58,7 @@ export default function AboutPage() {
       <div className='bg-gradient-to-b from-[#B6EADA] to-[#5B8FB9] dark:from-[#03001C] dark:to-[#301E67]'>
         <div className='container mx-auto flex min-h-screen flex-col items-center justify-center'>
           <div className='mx-10 mb-10 text-center text-[#301E67] dark:text-white sm:mx-auto md:max-w-lg lg:max-w-6xl'>
-            <h1 className='font-aistrike text-5xl md:text-7xl lg:text-8xl'>
+            <h1 className='font-airstrike text-5xl md:text-7xl lg:text-8xl'>
               MAGE 9
             </h1>
             <h2 className='text-lg font-bold md:text-2xl lg:text-3xl '>

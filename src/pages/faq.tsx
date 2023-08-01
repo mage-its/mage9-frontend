@@ -22,7 +22,7 @@ export default function FAQPage() {
     <MainLayout>
       <Seo templateTitle='FAQ' />
       <main className='min-h-screen bg-black'>
-        <div className='left-0 right-0 top-0 h-[88px] rounded-b-[18px] bg-gradient-to-b from-violet-950 to-violet-800'></div>
+        <div className='left-0 right-0 top-0 h-24 bg-gradient-to-b from-violet-950 to-violet-800' />
         <section className='grid-col-2 container mx-auto pt-32 md:grid'>
           <div className='col-start-1 col-end-2'>
             <h2 className='mx-5 text-xl font-light tracking-[14px] text-slate-500 md:mx-0 md:text-2xl'>

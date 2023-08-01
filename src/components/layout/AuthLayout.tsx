@@ -7,13 +7,11 @@ export default function AuthLayout({
   children: React.ReactNode
 }) {
   return (
-    <>
-      <div
-        className={`flex ${style.bgauth} relative min-h-screen min-w-full items-center justify-center`}
-      >
-        <BgParticles />
-        {children}
-      </div>
-    </>
+    <div
+      className={`flex ${style.bgauth} relative min-h-screen min-w-full items-center justify-center`}
+    >
+      <BgParticles />
+      {children}
+    </div>
   )
 }

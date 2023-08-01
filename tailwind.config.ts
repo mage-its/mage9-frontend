@@ -11,6 +11,7 @@ export default {
       },
       fontFamily: {
         primary: ['Inter', ...defaultTheme.fontFamily.sans],
+        airstrike: ['var(--font-airstrike)'],
       },
       keyframes: {
         flicker: {
@@ -36,6 +37,13 @@ export default {
       animation: {
         flicker: 'flicker 3s linear infinite',
         shimmer: 'shimmer 1.3s linear infinite',
+      },
+      colors: {
+        custom: {
+          purple: '#301E67',
+          blue: '#0B1462',
+          green: '#B6EADA',
+        },
       },
     },
   },

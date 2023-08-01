@@ -29,7 +29,7 @@ const Footer = ({ lineColor, footerColor }: FooterProps) => {
                   className='cursor-pointe h-24 md:h-28 lg:h-40'
                 />
               </Link>
-              <h1 className='font-aistrike -mt-3 text-3xl md:text-4xl lg:text-5xl'>
+              <h1 className='-mt-3 font-airstrike text-3xl md:text-4xl lg:text-5xl'>
                 MAGE 9
               </h1>
             </div>

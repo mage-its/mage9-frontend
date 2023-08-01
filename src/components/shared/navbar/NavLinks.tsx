@@ -1,6 +1,8 @@
 export const links = [
   { href: '/', label: 'Home' },
   { href: '/about', label: 'About' },
+  { href: '/workshop', label: 'Workshop' },
+  { href: '/faq', label: 'FAQ' },
 ]
 export const complinks = [
   { href: '/competition/appdev', label: 'App Development' },

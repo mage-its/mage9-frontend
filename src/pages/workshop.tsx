@@ -15,7 +15,7 @@ export default function workshop() {
         <div className='flex flex-col text-[#301E67] dark:text-white'>
           <div className='left-0 right-0 top-0 z-10 h-24 bg-black/70'></div>
           <div className='relative flex min-h-[80vh] flex-col items-center justify-center bg-white dark:bg-[#03001C] md:min-h-[85vh] md:justify-end'>
-            <h1 className='font-aistrike z-20 text-5xl md:text-7xl lg:text-8xl'>
+            <h1 className='z-20 font-airstrike text-5xl md:text-7xl lg:text-8xl'>
               Workshop
             </h1>
             <h2 className='z-20 mb-10 text-lg font-bold md:mb-28 md:text-2xl lg:text-3xl'>
@@ -112,7 +112,7 @@ export default function workshop() {
           <h1 className='mb-2 text-2xl font-bold sm:text-3xl md:mb-2 md:text-4xl lg:text-5xl'>
             Pemateri
           </h1>
-          <h1 className='font-aistrike mb-10 text-4xl font-bold sm:text-5xl md:mb-8 md:text-6xl lg:text-7xl'>
+          <h1 className='mb-10 font-airstrike text-4xl font-bold sm:text-5xl md:mb-8 md:text-6xl lg:text-7xl'>
             Workshop
           </h1>
           <div className='container mx-auto gap-10 md:grid md:grid-cols-3 '>

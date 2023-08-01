@@ -1,13 +1,20 @@
-.linkunderline:hover {
-  background-size: 100% 2px;
-  background-position: 0 100%;
+.animate-underline {
+  position: relative;
+  cursor: pointer;
 }
-.linkunderline {
-  border-bottom-width: 0;
-  background-image: linear-gradient(transparent, transparent),
-    linear-gradient(#fff, #fff);
-  background-size: 0 2px;
-  background-position: 0 100%;
-  background-repeat: no-repeat;
-  transition: background-size 0.5s ease-in-out;
+
+.animate-underline:before {
+  content: '';
+  position: absolute;
+  background: #fff;
+  bottom: -1px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  z-index: -1;
+  transition: width 0.1s ease-in;
+}
+
+.animate-underline:hover:before {
+  width: 100%;
 }

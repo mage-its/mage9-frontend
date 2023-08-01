@@ -21,7 +21,7 @@ const AuthPage = () => {
     <AuthLayout>
       <div className='flex flex-col items-center justify-center'>
         <div className=' item-center flex flex-col justify-center'>
-          <h1 className='font-aistrike mx-auto h-20 text-7xl text-sky-400 md:text-8xl'>
+          <h1 className='mx-auto h-20 font-airstrike text-7xl text-sky-400 md:text-8xl'>
             MAGE
           </h1>
           <h2 className='-mt-5 mb-10 text-xl font-bold text-sky-400 sm:mt-0 md:text-xl'>

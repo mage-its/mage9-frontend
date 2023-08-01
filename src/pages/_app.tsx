@@ -1,4 +1,6 @@
 import { AppProps } from 'next/app'
+import { Lexend_Deca } from 'next/font/google'
+import localFont from 'next/font/local'
 import Router from 'next/router'
 import { ThemeProvider } from 'next-themes'
 import React, { useEffect, useState } from 'react'
@@ -9,6 +11,22 @@ import 'react-toastify/dist/ReactToastify.css'
 import '@/styles/globals.css'
 
 import Loading from '@/components/Loading'
+
+const airstrike = localFont({
+  src: [
+    {
+      path: '../../public/fonts/airstrike.woff2',
+      weight: '900',
+      style: 'normal',
+    },
+  ],
+  variable: '--font-airstrike',
+})
+
+const lexend = Lexend_Deca({
+  subsets: ['latin'],
+  weight: ['400', '700', '900'],
+})
 
 function MyApp({ Component, pageProps }: AppProps) {
   const [loading, setLoading] = useState(false)
@@ -36,7 +54,9 @@ function MyApp({ Component, pageProps }: AppProps) {
         <Loading />
       ) : (
         <ThemeProvider attribute='class'>
-          <Component {...pageProps} />
+          <main className={`${lexend.className} ${airstrike.variable}`}>
+            <Component {...pageProps} />
+          </main>
           <ToastContainer />
         </ThemeProvider>
       )}
