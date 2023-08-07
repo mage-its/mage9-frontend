@@ -2,6 +2,7 @@ import Image from 'next/image'
 
 import ResponsiveThemeHandler from '@/components/shared/ResponsiveTheme'
 import YotubePlayer from '@/components/shared/YotubePlayer'
+import Link from 'next/link'
 const imagespath = '/images/competition/teknis/'
 const gradientsVariant = {
   appdevGradient:
@@ -18,12 +19,14 @@ interface CompetitionTeknisProps {
   readonly title: string
   readonly catagory: string
   readonly videoUrl: string
+  readonly guidebook: string
 }
 
 const CompetitionTeknis = ({
   title,
   catagory,
   videoUrl,
+  guidebook,
 }: CompetitionTeknisProps) => {
   return (
     <div
@@ -89,9 +92,11 @@ const CompetitionTeknis = ({
         </ResponsiveThemeHandler>
       </div>
       <div className='z-30 -mt-44 md:-mt-[6.6rem]'>
-        <h1 className='z-30 mx-[20vw] rounded-full bg-white py-3 text-center text-xl text-black md:mx-auto md:w-80'>
-          Unduh Guidebook
-        </h1>
+        <Link href={guidebook} target='_blank'>
+          <h1 className='z-30 mx-[20vw] rounded-full bg-white py-3 text-center text-xl text-black md:mx-auto md:w-80'>
+            Unduh Guidebook
+          </h1>
+        </Link>
       </div>
     </div>
   )

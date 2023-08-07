@@ -20,6 +20,7 @@ interface CompetitionPageProps {
     readonly description: string
     readonly catagory: string
     readonly videoUrl: string
+    readonly guidebook: string
   }
 }
 
@@ -37,6 +38,7 @@ const CompetitionPage = ({ content }: CompetitionPageProps) => {
           title={content.title.split(' ')[0]}
           catagory={content.catagory}
           videoUrl={content.videoUrl}
+          guidebook={content.guidebook}
         />
         <CompetitionTimeline
           title={content.title.split(' ')[0]}
