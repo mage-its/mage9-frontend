@@ -335,9 +335,12 @@ export default function HomePage() {
             OUR PARTNER
           </h1>
           <div className='mx-auto flex h-[70vh] min-w-[90vw] flex-col items-center justify-center rounded-[40px] bg-gradient-to-b from-[#B6EADA]/30 to-transparent md:mt-10 md:min-w-[80vw]'>
-            <h2 className='text-center text-2xl text-white md:text-3xl lg:text-6xl'>
-              Coming Soon
-            </h2>
+            <Image
+              src='/images/partner/bms.svg'
+              alt='bms'
+              width={400}
+              height={400}
+            />
           </div>
         </div>
         <Footer
