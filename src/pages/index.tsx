@@ -334,12 +334,19 @@ export default function HomePage() {
           <h1 className='pt-[10vh] text-center text-3xl font-extrabold tracking-wide text-white sm:text-4xl md:text-5xl lg:text-6xl'>
             OUR PARTNER
           </h1>
-          <div className='mx-auto flex h-[70vh] min-w-[90vw] flex-col items-center justify-center rounded-[40px] bg-gradient-to-b from-[#B6EADA]/30 to-transparent md:mt-10 md:min-w-[80vw]'>
+          <div className='mx-auto grid h-[70vh] min-w-[90vw] grid-cols-1 place-items-center gap-1 rounded-[40px] bg-gradient-to-b from-[#B6EADA]/30 to-transparent md:mt-10 md:min-w-[80vw] md:grid-cols-2'>
             <Image
               src='/images/partner/bms.svg'
               alt='bms'
-              width={400}
-              height={400}
+              width={300}
+              height={300}
+            />
+
+            <Image
+              src='/images/partner/akr.png'
+              alt='bms'
+              width={250}
+              height={250}
             />
           </div>
         </div>
