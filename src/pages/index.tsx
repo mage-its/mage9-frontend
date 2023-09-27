@@ -334,20 +334,31 @@ export default function HomePage() {
           <h1 className='pt-[10vh] text-center text-3xl font-extrabold tracking-wide text-white sm:text-4xl md:text-5xl lg:text-6xl'>
             OUR PARTNER
           </h1>
-          <div className='mx-auto grid h-[70vh] min-w-[90vw] grid-cols-1 place-items-center gap-1 rounded-[40px] bg-gradient-to-b from-[#B6EADA]/30 to-transparent md:mt-10 md:min-w-[80vw] md:grid-cols-2'>
-            <Image
-              src='/images/partner/bms.svg'
-              alt='bms'
-              width={300}
-              height={300}
-            />
-
-            <Image
-              src='/images/partner/akr.png'
-              alt='bms'
-              width={250}
-              height={250}
-            />
+          <div className='mx-auto grid h-[70vh] min-w-[90vw] grid-cols-1 place-items-center gap-2 rounded-[40px] bg-gradient-to-b from-[#B6EADA]/30 to-transparent md:mt-10 md:min-w-[80vw] md:grid-cols-2'>
+            <div className='relative mt-7 h-[180px] w-[180px] md:col-span-2 md:h-[300px] md:w-[300px]'>
+              <Image
+                src='/images/partner/akr.png'
+                alt='akr'
+                fill
+                style={{ objectFit: 'contain' }}
+              />
+            </div>
+            <div className=' relative h-[230px] w-[230px]'>
+              <Image
+                src='/images/partner/bms.png'
+                alt='bms'
+                fill
+                style={{ objectFit: 'contain' }}
+              />
+            </div>
+            <div className=' relative h-[180px] w-[180px]'>
+              <Image
+                src='/images/partner/adhi.png'
+                alt='adhi'
+                fill
+                style={{ objectFit: 'contain' }}
+              />
+            </div>
           </div>
         </div>
         <Footer
