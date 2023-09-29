@@ -337,7 +337,7 @@ export default function HomePage() {
           <div className='mx-auto grid h-[70vh] min-w-[90vw] grid-cols-1 place-items-center gap-2 rounded-[40px] bg-gradient-to-b from-[#B6EADA]/30 to-transparent md:mt-10 md:min-w-[80vw] md:grid-cols-2'>
             <div className='relative mt-7 h-[180px] w-[180px] md:col-span-2 md:h-[300px] md:w-[300px]'>
               <Image
-                src='/images/partner/akr.png'
+                src='/images/partner/akr.svg'
                 alt='akr'
                 fill
                 style={{ objectFit: 'contain' }}
@@ -345,7 +345,7 @@ export default function HomePage() {
             </div>
             <div className=' relative h-[230px] w-[230px]'>
               <Image
-                src='/images/partner/bms.png'
+                src='/images/partner/bms.svg'
                 alt='bms'
                 fill
                 style={{ objectFit: 'contain' }}
@@ -353,7 +353,7 @@ export default function HomePage() {
             </div>
             <div className=' relative h-[180px] w-[180px]'>
               <Image
-                src='/images/partner/adhi.png'
+                src='/images/partner/adhi.svg'
                 alt='adhi'
                 fill
                 style={{ objectFit: 'contain' }}
