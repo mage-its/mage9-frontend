@@ -42,8 +42,9 @@ const CompetitionData = [
       'Robotic Competition merupakan cabang kompetisi MAGE 9 yang hadir dengan membawa tantangan kepada peserta menggunakan robot line tracer dan robot transporter. Dalam upaya memadukan teknologi robotik dengan tema besar MAGE 9, yaitu “Build a Better Society with Smart City”, kompetisi ini menawarkan panggung bagi para peserta untuk merancang, mengembangkan, dan menunjukkan kemampuan robot mereka dalam menciptakan solusi yang kontributif terhadap visi kota cerdas yang lebih baik.',
     catagory:
       'Terbuka untuk siswa/i SMP/Sederajat dan siswa/i SMA/SMK/Sederajat - (Kelompok 1 sampai 3 Orang)',
-    guidebook: '#',
-    videoUrl: 'https://www.youtube.com/embed/2Z4m4lnjxkY',
+    guidebook:
+      'https://drive.google.com/drive/folders/1jr9PMuPDvu8qFyIIGOhoDMoA5hZ4A9ll',
+    videoUrl: 'https://youtu.be/mUokxzqPCG82Z4m4lnjxkY',
   },
 ]
 
