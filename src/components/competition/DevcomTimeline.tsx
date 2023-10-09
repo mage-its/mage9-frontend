@@ -1,4 +1,5 @@
 import DevcomTimelineData from '@/data/DevcomTimelineData'
+import RoboticsTimelineData from '@/data/RoboticsTimelineData'
 
 import LeftTimeline from '@/components/shared/LeftTimeline'
 import RightTimeline from '@/components/shared/RightTimeline'
@@ -37,13 +38,6 @@ const CompetitionTimeline = ({ title, name }: CompetitionTimelineProps) => {
             <br /> Kompetisi
           </h1>
         </div>
-        <div className={title === 'robotics' ? 'block' : 'hidden'}>
-          <div className='flex min-h-[80vh] flex-col items-center justify-center'>
-            <h1 className='animate-bounce text-4xl font-bold md:text-5xl'>
-              Coming Soon
-            </h1>
-          </div>
-        </div>
         <div className={title === 'robotics' ? 'hidden' : 'block'}>
           <div className='mx-auto p-2 md:grid md:grid-cols-9'>
             <LeftTimeline
@@ -65,6 +59,36 @@ const CompetitionTimeline = ({ title, name }: CompetitionTimelineProps) => {
             <LeftTimeline
               date={DevcomTimelineData[4].date}
               description={DevcomTimelineData[4].description}
+            />
+          </div>
+        </div>
+        <div
+          className={
+            title === 'app' || title === 'game' || title === 'iot'
+              ? 'hidden'
+              : 'block'
+          }
+        >
+          <div className='mx-auto p-2 md:grid md:grid-cols-9'>
+            <LeftTimeline
+              date={RoboticsTimelineData[0].date}
+              description={RoboticsTimelineData[0].description + ' ' + name}
+            />
+            <RightTimeline
+              date={RoboticsTimelineData[1].date}
+              description={RoboticsTimelineData[1].description}
+            />
+            <LeftTimeline
+              date={RoboticsTimelineData[2].date}
+              description={RoboticsTimelineData[2].description}
+            />
+            <RightTimeline
+              date={RoboticsTimelineData[3].date}
+              description={RoboticsTimelineData[3].description}
+            />
+            <LeftTimeline
+              date={RoboticsTimelineData[4].date}
+              description={RoboticsTimelineData[4].description}
             />
           </div>
         </div>
